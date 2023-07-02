@@ -7,7 +7,7 @@ class Program{
     string [] words = SplitText(Console.ReadLine()!);
     Console.WriteLine("Words array:"); 
     PrintArray (words);
-    static void PrintArray (string [] array){
+        static void PrintArray (string [] array){
         foreach (string word in array){
         Console.WriteLine(word);
         }
